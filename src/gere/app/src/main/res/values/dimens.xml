@@ -3,4 +3,6 @@
     <dimen name="progress_size">60dp</dimen>
     <dimen name="frame_size">350dp</dimen>
     <dimen name="image_size">90dp</dimen>
+    <dimen name="size_fram_W">100dp</dimen>
+    <dimen name="size_fram_H">120dp</dimen>
 </resources>

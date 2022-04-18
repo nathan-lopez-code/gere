@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="my_black">#1D1D1B</color>
     <color name="splash_top_color">#8479A3</color>
-
-
+    <color name="rose">#D8CAAD</color>
+    <color name="red">#F16060</color>
 
 </resources>
