@@ -40,6 +40,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:src="@drawable/ic_calendar"/>
             <TextView
+                android:id="@+id/text_o"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
@@ -67,6 +68,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:src="@drawable/ic_calendar"/>
             <TextView
+                android:id="@+id/text_d"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
@@ -92,6 +94,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:src="@drawable/ic_calendar"/>
             <TextView
+                android:id="@+id/text_f"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
