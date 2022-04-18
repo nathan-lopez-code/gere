@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="gere.textview" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">42sp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:padding">0sp</item>
+        <item name="android:color">@color/white</item>
+    </style>
+</resources>

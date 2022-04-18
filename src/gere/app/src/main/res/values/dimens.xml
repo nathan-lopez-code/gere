@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_size">60dp</dimen>
+    <dimen name="frame_size">350dp</dimen>
+    <dimen name="image_size">90dp</dimen>
+</resources>
