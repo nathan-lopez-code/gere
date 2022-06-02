@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gere">
         <activity
+            android:name=".MainConfigurationActivity"
+            android:exported="false"
+            android:label="@string/welcome_config"
+            android:theme="@style/Theme.config"/>
+        <activity
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.splash">
@@ -18,12 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
     </application>
 
 </manifest>

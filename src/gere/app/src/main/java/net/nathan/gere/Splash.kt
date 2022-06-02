@@ -16,10 +16,16 @@ class Splash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+
+        // hides action bar
+        supportActionBar?.hide()
+
         animation()
+
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+
+            val intent = Intent(this, MainConfigurationActivity::class.java)
             startActivity(intent)
             finish()
         }, myTime)

@@ -2,5 +2,20 @@
     <string name="app_name">Gere</string>
     <string name="description_app_name">Géniteur responsable</string>
     <string name="start">start calcule</string>
+    <string name="error_cal">you may selected an valide date</string>
+    <string name="welcome_config">Beinvenue sur Gere</string>
+    <string name="nextButtonText">suivant</string>
+    <string name="welcome_message">Gere : Geniteur responsable , une application qui vous permet de bien effectuer votre planing familiale et cela en toute simplicité et  confidentialité.</string>
+    <string name="continue_config">appuyez sur suivant pour commencer la configuration</string>
+    <string name="user_name">nom d\'utilisateur</string>
+    <string name="createAccount_config">Créez votre compte privé</string>
+    <string name="createAccount_message">Votre compte est privé et  n\'est que par vous même sur votre mobile</string>
+    <string name="change_pic_message">appuyer pour changer la photo</string>
+    <string name="account_private_message">Votre compte est privé et n\'est accessible que par vous même sur votre téléphone portable</string>
+    <string name="birth_day">votre date de naissance</string>
+    <string name="password">entrez mot de passe</string>
+    <string name="confirm_password">confirmer mot de passe</string>
+    <string name="show_password">affciher le mot de passe</string>
+
 
 </resources>

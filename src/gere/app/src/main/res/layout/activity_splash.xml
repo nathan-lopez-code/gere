@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/splash_top_color"
-    android:padding="1dp"
     tools:context=".Splash">
 
 
@@ -20,11 +18,11 @@
 
         <ProgressBar
             android:id="@+id/progress_circular"
-            android:layout_width="@dimen/progress_size"
-            android:layout_height="@dimen/progress_size"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            style="@style/progress"
+
             />
 
 
@@ -35,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/topContraint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/my_black">
+        android:background="?attr/colorPrimaryDark">
 
         <ImageView
             android:id="@+id/logo"
@@ -45,6 +43,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="50dp"
             android:src="@drawable/logo_gere"
+            android:contentDescription="@string/app_name"
             />
         <TextView
             android:id="@+id/bottom_text"
